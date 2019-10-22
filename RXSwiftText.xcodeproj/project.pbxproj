@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		97A7A830235E947F000A81B4 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A82F235E947F000A81B4 /* Demo4.swift */; };
+		97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A831235EE37B000A81B4 /* Demo5.swift */; };
 		BCD387D4235B402A00262600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D3235B402A00262600 /* AppDelegate.swift */; };
 		BCD387D8235B402A00262600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D7235B402A00262600 /* ViewController.swift */; };
 		BCD387DB235B402A00262600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD387D9235B402A00262600 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		2749E3B8B1EFF0AE906AA8DB /* Pods-RXSwiftText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.release.xcconfig"; sourceTree = "<group>"; };
 		5E68CC75261A50538BC510E3 /* Pods_RXSwiftText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A7A82F235E947F000A81B4 /* Demo4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
+		97A7A831235EE37B000A81B4 /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
 		AB8AEC69FF557E0C7FC358B0 /* Pods-RXSwiftText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.debug.xcconfig"; sourceTree = "<group>"; };
 		BCD387D0235B402A00262600 /* RXSwiftText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD387D3235B402A00262600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				BCFC8B8B235C0C260029DEEC /* Demo2.swift */,
 				BCFC8B8D235C0D480029DEEC /* Demo3.swift */,
 				97A7A82F235E947F000A81B4 /* Demo4.swift */,
+				97A7A831235EE37B000A81B4 /* Demo5.swift */,
 				BCD387D9235B402A00262600 /* Main.storyboard */,
 				BCD387DC235B402B00262600 /* Assets.xcassets */,
 				BCD387DE235B402B00262600 /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */,
 				97A7A830235E947F000A81B4 /* Demo4.swift in Sources */,
 				BCD387EA235B40CB00262600 /* NewPerson.swift in Sources */,
 				BCFC8B8C235C0C260029DEEC /* Demo2.swift in Sources */,
