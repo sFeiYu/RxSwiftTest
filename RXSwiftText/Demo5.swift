@@ -10,9 +10,11 @@ import UIKit
 import RxSwift
 import RxCocoa
 
+
 class Demo5: UIViewController {
     
     let disposebag = DisposeBag()
+    let txfOne = UITextField()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +25,19 @@ class Demo5: UIViewController {
         Observable<[String]>.just(array).subscribe(onNext: { (str) in
             print(str)
             }).disposed(by: disposebag)
+        
+        //UITextField一开始会走2次
+        //UITextField影响touchbegin(UItextView不受影响，原因：UItextView用的是通知，UITextField用的是event事件)
+        txfOne.rx.text.subscribe(onNext: { (str) in
+            //没输入之前也会走（bug）
+            print("走了")
+            }).disposed(by: disposebag)
+
        
     }
+    
+    
+    
     
 
     /*
