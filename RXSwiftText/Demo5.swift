@@ -11,12 +11,19 @@ import RxSwift
 import RxCocoa
 
 class Demo5: UIViewController {
+    
     let disposebag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //单个信号序列创建
+        //ViewModel create(网络请求) data -> Observable(data)
+        //tableview数组 - ViewModel.ob.subscriber {data in 数组}
+        let array = ["aa", "bb"]
+        Observable<[String]>.just(array).subscribe(onNext: { (str) in
+            print(str)
+            }).disposed(by: disposebag)
+       
     }
     
 
