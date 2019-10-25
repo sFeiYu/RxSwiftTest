@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class Demo9: UIViewController {
 
@@ -18,7 +20,8 @@ class Demo9: UIViewController {
     //MARK: - 连接操作符：connect、publish、replay、multicast
     func demo1() -> Void {
         //1.可连接的序列
-        
+        let interval = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
+        _ = interval.subscribe(onNext: {print("订阅：\($0)")})
     }
     
 
