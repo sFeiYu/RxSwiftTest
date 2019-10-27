@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A7A830235E947F000A81B4 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A82F235E947F000A81B4 /* Demo4.swift */; };
+		97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A831235EE37B000A81B4 /* Demo5.swift */; };
+		97A950412360273D00135556 /* Demo6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A950402360273D00135556 /* Demo6.swift */; };
+		97A95043236034A300135556 /* Demo7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95042236034A300135556 /* Demo7.swift */; };
+		97A95045236072E700135556 /* Demo8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95044236072E700135556 /* Demo8.swift */; };
+		97A95047236076A700135556 /* Demo9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95046236076A700135556 /* Demo9.swift */; };
 		BCD387D4235B402A00262600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D3235B402A00262600 /* AppDelegate.swift */; };
-		BCD387D6235B402A00262600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D5235B402A00262600 /* SceneDelegate.swift */; };
 		BCD387D8235B402A00262600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D7235B402A00262600 /* ViewController.swift */; };
 		BCD387DB235B402A00262600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD387D9235B402A00262600 /* Main.storyboard */; };
 		BCD387DD235B402B00262600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD387DC235B402B00262600 /* Assets.xcassets */; };
@@ -23,10 +28,15 @@
 /* Begin PBXFileReference section */
 		2749E3B8B1EFF0AE906AA8DB /* Pods-RXSwiftText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.release.xcconfig"; sourceTree = "<group>"; };
 		5E68CC75261A50538BC510E3 /* Pods_RXSwiftText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A7A82F235E947F000A81B4 /* Demo4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
+		97A7A831235EE37B000A81B4 /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
+		97A950402360273D00135556 /* Demo6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo6.swift; sourceTree = "<group>"; };
+		97A95042236034A300135556 /* Demo7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo7.swift; sourceTree = "<group>"; };
+		97A95044236072E700135556 /* Demo8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo8.swift; sourceTree = "<group>"; };
+		97A95046236076A700135556 /* Demo9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo9.swift; sourceTree = "<group>"; };
 		AB8AEC69FF557E0C7FC358B0 /* Pods-RXSwiftText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.debug.xcconfig"; sourceTree = "<group>"; };
 		BCD387D0235B402A00262600 /* RXSwiftText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD387D3235B402A00262600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCD387D5235B402A00262600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BCD387D7235B402A00262600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCD387DA235B402A00262600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCD387DC235B402B00262600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,12 +91,17 @@
 			isa = PBXGroup;
 			children = (
 				BCD387D3235B402A00262600 /* AppDelegate.swift */,
-				BCD387D5235B402A00262600 /* SceneDelegate.swift */,
 				BCD387D7235B402A00262600 /* ViewController.swift */,
 				BCD387E7235B40B200262600 /* Demo1VC.swift */,
 				BCD387E9235B40CB00262600 /* NewPerson.swift */,
 				BCFC8B8B235C0C260029DEEC /* Demo2.swift */,
 				BCFC8B8D235C0D480029DEEC /* Demo3.swift */,
+				97A7A82F235E947F000A81B4 /* Demo4.swift */,
+				97A7A831235EE37B000A81B4 /* Demo5.swift */,
+				97A950402360273D00135556 /* Demo6.swift */,
+				97A95042236034A300135556 /* Demo7.swift */,
+				97A95044236072E700135556 /* Demo8.swift */,
+				97A95046236076A700135556 /* Demo9.swift */,
 				BCD387D9235B402A00262600 /* Main.storyboard */,
 				BCD387DC235B402B00262600 /* Assets.xcassets */,
 				BCD387DE235B402B00262600 /* LaunchScreen.storyboard */,
@@ -114,7 +129,7 @@
 				BCD387CC235B402A00262600 /* Sources */,
 				BCD387CD235B402A00262600 /* Frameworks */,
 				BCD387CE235B402A00262600 /* Resources */,
-				B5C138DA0D546BD60996C695 /* [CP] Embed Pods Frameworks */,
+				A595FBB08C11F7CB7A8500AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,7 +209,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5C138DA0D546BD60996C695 /* [CP] Embed Pods Frameworks */ = {
+		A595FBB08C11F7CB7A8500AB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,13 +233,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A95047236076A700135556 /* Demo9.swift in Sources */,
+				97A95043236034A300135556 /* Demo7.swift in Sources */,
+				97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */,
+				97A7A830235E947F000A81B4 /* Demo4.swift in Sources */,
 				BCD387EA235B40CB00262600 /* NewPerson.swift in Sources */,
+				97A950412360273D00135556 /* Demo6.swift in Sources */,
 				BCFC8B8C235C0C260029DEEC /* Demo2.swift in Sources */,
 				BCD387D8235B402A00262600 /* ViewController.swift in Sources */,
 				BCD387D4235B402A00262600 /* AppDelegate.swift in Sources */,
 				BCFC8B8E235C0D480029DEEC /* Demo3.swift in Sources */,
-				BCD387D6235B402A00262600 /* SceneDelegate.swift in Sources */,
 				BCD387E8235B40B200262600 /* Demo1VC.swift in Sources */,
+				97A95045236072E700135556 /* Demo8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48RGH5TRF;
 				INFOPLIST_FILE = RXSwiftText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48RGH5TRF;
 				INFOPLIST_FILE = RXSwiftText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
