@@ -88,7 +88,25 @@ class SDemo1: ViewController {
     //MARK:函数
     func demo5() -> Void {
         //形式参数是let,只能是let
+        
+        //可以用元组作为返回值
+        sumData(a: 1, b: 2)
     }
+    
+    //以下这种形式用于函数注释，按住option可以查看
+    /// 求和函数【概述】
+    ///
+    /// 将2个整数相加【更详细的描述】
+    /// - Parameter a: 数值1
+    /// - Parameter b: 数值2
+    /// - Returns : 2个整数的和
+    /// - Note : 传入2个整数即可【批注】
+    
+    func sumData(a:Int,b:Int) -> Void {
+        a + b
+    }
+    
+    //MARK:
     
     
 
