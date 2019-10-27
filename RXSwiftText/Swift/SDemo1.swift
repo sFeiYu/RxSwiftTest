@@ -28,7 +28,7 @@ class SDemo1: ViewController {
         
     }
     
-    //带间隔的区间值
+    //MARK: 带间隔的区间值
     func demo2() -> Void {
         let hours = 11
         let hourInterval = 2
@@ -37,5 +37,59 @@ class SDemo1: ViewController {
             print(tickMark)
         }
     }
+    
+    //MARK:swicth
+    func demo3() -> Void {
+        //要想贯穿用fallthrough
+        //默认不加break也不会贯穿
+        
+        //switch 必须保证能处理所有情况，可以加个default
+        //case、default后面必须加一条语句，比如break
+        //switch支持String, Character类型，元组类型
+        
+        //值绑定
+        let point = (2, 0)
+        switch point {
+        case (let x, 0):
+            print(x);
+        default:
+            print("default")
+        }
+        
+        //where
+        let point1 = (1, -1)
+        switch point1 {
+        case let (x, y) where x == y:
+            print("x==y");
+        default:
+            print("default")
+        }
+        
+        //where还可以放在for循环里面
+        for i in -1...3 where i  > 0 {
+            //作用相当于contiun
+            print(i)
+        }
+    }
+    
+    //MARK:标签语句
+    func demo4() -> Void {
+        outer:for i in 0...3 {
+            for j in 0...3 {
+                if i == 3{
+                    //结束外层此次循环
+                    continue outer
+                }
+                
+            }
+        }
+    }
+    
+    //MARK:函数
+    func demo5() -> Void {
+        //形式参数是let,只能是let
+    }
+    
+    
 
 }
