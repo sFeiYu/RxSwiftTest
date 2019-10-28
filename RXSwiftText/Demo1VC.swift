@@ -13,7 +13,7 @@ import RxCocoa
 class Demo1VC: ViewController {
     
     var person = NewPerson()
-    
+    let disposeBag = DisposeBag()
     let btn = UIButton(type: .custom)
     let txf = UITextField()
     let scw = UIScrollView()

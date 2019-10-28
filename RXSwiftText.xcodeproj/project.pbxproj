@@ -13,6 +13,7 @@
 		97A95043236034A300135556 /* Demo7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95042236034A300135556 /* Demo7.swift */; };
 		97A95045236072E700135556 /* Demo8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95044236072E700135556 /* Demo8.swift */; };
 		97A95047236076A700135556 /* Demo9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A95046236076A700135556 /* Demo9.swift */; };
+		BCD1C6B22365BB3A00C701AF /* SDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1C6B12365BB3A00C701AF /* SDemo1.swift */; };
 		BCD387D4235B402A00262600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D3235B402A00262600 /* AppDelegate.swift */; };
 		BCD387D8235B402A00262600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD387D7235B402A00262600 /* ViewController.swift */; };
 		BCD387DB235B402A00262600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD387D9235B402A00262600 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		97A95044236072E700135556 /* Demo8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo8.swift; sourceTree = "<group>"; };
 		97A95046236076A700135556 /* Demo9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo9.swift; sourceTree = "<group>"; };
 		AB8AEC69FF557E0C7FC358B0 /* Pods-RXSwiftText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD1C6B12365BB3A00C701AF /* SDemo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDemo1.swift; sourceTree = "<group>"; };
 		BCD387D0235B402A00262600 /* RXSwiftText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD387D3235B402A00262600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD387D7235B402A00262600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BCD1C6B02365BB2600C701AF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1C6B12365BB3A00C701AF /* SDemo1.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		BCD387C7235B402A00262600 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		BCD387D2235B402A00262600 /* RXSwiftText */ = {
 			isa = PBXGroup;
 			children = (
+				BCD1C6B02365BB2600C701AF /* Swift */,
 				BCD387D3235B402A00262600 /* AppDelegate.swift */,
 				BCD387D7235B402A00262600 /* ViewController.swift */,
 				BCD387E7235B40B200262600 /* Demo1VC.swift */,
@@ -235,6 +246,7 @@
 			files = (
 				97A95047236076A700135556 /* Demo9.swift in Sources */,
 				97A95043236034A300135556 /* Demo7.swift in Sources */,
+				BCD1C6B22365BB3A00C701AF /* SDemo1.swift in Sources */,
 				97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */,
 				97A7A830235E947F000A81B4 /* Demo4.swift in Sources */,
 				BCD387EA235B40CB00262600 /* NewPerson.swift in Sources */,
