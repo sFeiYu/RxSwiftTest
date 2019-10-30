@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9748A1112367093000CD5DBA /* Demo18DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748A1102367093000CD5DBA /* Demo18DetailVC.swift */; };
 		97A7A830235E947F000A81B4 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A82F235E947F000A81B4 /* Demo4.swift */; };
 		97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A831235EE37B000A81B4 /* Demo5.swift */; };
 		97A950412360273D00135556 /* Demo6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A950402360273D00135556 /* Demo6.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		2749E3B8B1EFF0AE906AA8DB /* Pods-RXSwiftText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftText.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftText/Pods-RXSwiftText.release.xcconfig"; sourceTree = "<group>"; };
 		5E68CC75261A50538BC510E3 /* Pods_RXSwiftText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9748A1102367093000CD5DBA /* Demo18DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo18DetailVC.swift; sourceTree = "<group>"; };
 		97A7A82F235E947F000A81B4 /* Demo4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
 		97A7A831235EE37B000A81B4 /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
 		97A950402360273D00135556 /* Demo6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo6.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				97A95042236034A300135556 /* Demo7.swift */,
 				97A95044236072E700135556 /* Demo8.swift */,
 				97A95046236076A700135556 /* Demo9.swift */,
+				9748A1102367093000CD5DBA /* Demo18DetailVC.swift */,
 				BCD387D9235B402A00262600 /* Main.storyboard */,
 				BCD387DC235B402B00262600 /* Assets.xcassets */,
 				BCD387DE235B402B00262600 /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97A95047236076A700135556 /* Demo9.swift in Sources */,
+				9748A1112367093000CD5DBA /* Demo18DetailVC.swift in Sources */,
 				97A95043236034A300135556 /* Demo7.swift in Sources */,
 				BCD1C6B22365BB3A00C701AF /* SDemo1.swift in Sources */,
 				97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */,
