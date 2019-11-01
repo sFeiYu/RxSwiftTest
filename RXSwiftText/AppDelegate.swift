@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.makeKeyAndVisible()
         self.window?.backgroundColor = UIColor.white
-        self.window?.rootViewController = Demo9()
+        self.window?.rootViewController = KCSLoginVC()
         return true
     }
 

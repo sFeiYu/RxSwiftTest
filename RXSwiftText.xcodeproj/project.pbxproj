@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		9748A1112367093000CD5DBA /* Demo18DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748A1102367093000CD5DBA /* Demo18DetailVC.swift */; };
 		974A69712369758B009A6CD5 /* Demo27DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974A69702369758B009A6CD5 /* Demo27DetailVC.swift */; };
+		9792450D236C03B2002584F2 /* GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792450B236C03B2002584F2 /* GitHubSignupService.swift */; };
+		9792450E236C03B2002584F2 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792450C236C03B2002584F2 /* GitHubNetworkService.swift */; };
+		97924513236C03BC002584F2 /* KCSRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97924510236C03BB002584F2 /* KCSRegisterViewModel.swift */; };
+		97924514236C03BC002584F2 /* KCSLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97924511236C03BB002584F2 /* KCSLoginViewModel.swift */; };
+		97924515236C03BC002584F2 /* KCSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97924512236C03BB002584F2 /* KCSBaseViewModel.swift */; };
+		9792451A236C03D7002584F2 /* KCSLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97924518236C03D7002584F2 /* KCSLoginVC.xib */; };
+		9792451B236C03D7002584F2 /* KCSLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97924519236C03D7002584F2 /* KCSLoginVC.swift */; };
+		9792451D236C06E3002584F2 /* KCSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792451C236C06E3002584F2 /* KCSViewController.swift */; };
+		97924520236C0744002584F2 /* KCSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792451F236C0744002584F2 /* KCSExtension.swift */; };
+		97924529236C091A002584F2 /* KCSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97924528236C091A002584F2 /* KCSConstants.swift */; };
 		97A7A830235E947F000A81B4 /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A82F235E947F000A81B4 /* Demo4.swift */; };
 		97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7A831235EE37B000A81B4 /* Demo5.swift */; };
 		97A950412360273D00135556 /* Demo6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A950402360273D00135556 /* Demo6.swift */; };
@@ -33,6 +43,17 @@
 		5E68CC75261A50538BC510E3 /* Pods_RXSwiftText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9748A1102367093000CD5DBA /* Demo18DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo18DetailVC.swift; sourceTree = "<group>"; };
 		974A69702369758B009A6CD5 /* Demo27DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo27DetailVC.swift; sourceTree = "<group>"; };
+		9792450B236C03B2002584F2 /* GitHubSignupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignupService.swift; sourceTree = "<group>"; };
+		9792450C236C03B2002584F2 /* GitHubNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
+		97924510236C03BB002584F2 /* KCSRegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSRegisterViewModel.swift; sourceTree = "<group>"; };
+		97924511236C03BB002584F2 /* KCSLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSLoginViewModel.swift; sourceTree = "<group>"; };
+		97924512236C03BB002584F2 /* KCSBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSBaseViewModel.swift; sourceTree = "<group>"; };
+		97924518236C03D7002584F2 /* KCSLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KCSLoginVC.xib; sourceTree = "<group>"; };
+		97924519236C03D7002584F2 /* KCSLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSLoginVC.swift; sourceTree = "<group>"; };
+		9792451C236C06E3002584F2 /* KCSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSViewController.swift; sourceTree = "<group>"; };
+		9792451F236C0744002584F2 /* KCSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCSExtension.swift; sourceTree = "<group>"; };
+		97924521236C0783002584F2 /* RXSwiftText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RXSwiftText-Bridging-Header.h"; sourceTree = "<group>"; };
+		97924528236C091A002584F2 /* KCSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCSConstants.swift; sourceTree = "<group>"; };
 		97A7A82F235E947F000A81B4 /* Demo4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
 		97A7A831235EE37B000A81B4 /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
 		97A950402360273D00135556 /* Demo6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo6.swift; sourceTree = "<group>"; };
@@ -75,6 +96,63 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		97924509236C03A2002584F2 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9792451E236C0734002584F2 /* Tool */,
+				97924517236C03CB002584F2 /* Model */,
+				97924516236C03C2002584F2 /* View&VC */,
+				9792450F236C03BB002584F2 /* ViewModel */,
+				9792450A236C03B2002584F2 /* Services */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		9792450A236C03B2002584F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9792450B236C03B2002584F2 /* GitHubSignupService.swift */,
+				9792450C236C03B2002584F2 /* GitHubNetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9792450F236C03BB002584F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97924510236C03BB002584F2 /* KCSRegisterViewModel.swift */,
+				97924511236C03BB002584F2 /* KCSLoginViewModel.swift */,
+				97924512236C03BB002584F2 /* KCSBaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97924516236C03C2002584F2 /* View&VC */ = {
+			isa = PBXGroup;
+			children = (
+				9792451C236C06E3002584F2 /* KCSViewController.swift */,
+				97924519236C03D7002584F2 /* KCSLoginVC.swift */,
+				97924518236C03D7002584F2 /* KCSLoginVC.xib */,
+			);
+			path = "View&VC";
+			sourceTree = "<group>";
+		};
+		97924517236C03CB002584F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9792451E236C0734002584F2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9792451F236C0744002584F2 /* KCSExtension.swift */,
+				97924528236C091A002584F2 /* KCSConstants.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		BCD1C6B02365BB2600C701AF /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +182,7 @@
 		BCD387D2235B402A00262600 /* RXSwiftText */ = {
 			isa = PBXGroup;
 			children = (
+				97924509236C03A2002584F2 /* MVVM */,
 				BCD1C6B02365BB2600C701AF /* Swift */,
 				BCD387D3235B402A00262600 /* AppDelegate.swift */,
 				BCD387D7235B402A00262600 /* ViewController.swift */,
@@ -123,6 +202,7 @@
 				BCD387DC235B402B00262600 /* Assets.xcassets */,
 				BCD387DE235B402B00262600 /* LaunchScreen.storyboard */,
 				BCD387E1235B402B00262600 /* Info.plist */,
+				97924521236C0783002584F2 /* RXSwiftText-Bridging-Header.h */,
 			);
 			path = RXSwiftText;
 			sourceTree = "<group>";
@@ -169,6 +249,7 @@
 				TargetAttributes = {
 					BCD387CF235B402A00262600 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -197,6 +278,7 @@
 			files = (
 				BCD387E0235B402B00262600 /* LaunchScreen.storyboard in Resources */,
 				BCD387DD235B402B00262600 /* Assets.xcassets in Resources */,
+				9792451A236C03D7002584F2 /* KCSLoginVC.xib in Resources */,
 				BCD387DB235B402A00262600 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,20 +332,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9792451D236C06E3002584F2 /* KCSViewController.swift in Sources */,
 				97A95047236076A700135556 /* Demo9.swift in Sources */,
 				9748A1112367093000CD5DBA /* Demo18DetailVC.swift in Sources */,
+				97924529236C091A002584F2 /* KCSConstants.swift in Sources */,
+				9792451B236C03D7002584F2 /* KCSLoginVC.swift in Sources */,
 				974A69712369758B009A6CD5 /* Demo27DetailVC.swift in Sources */,
 				97A95043236034A300135556 /* Demo7.swift in Sources */,
 				BCD1C6B22365BB3A00C701AF /* SDemo1.swift in Sources */,
 				97A7A832235EE37B000A81B4 /* Demo5.swift in Sources */,
 				97A7A830235E947F000A81B4 /* Demo4.swift in Sources */,
 				BCD387EA235B40CB00262600 /* NewPerson.swift in Sources */,
+				9792450E236C03B2002584F2 /* GitHubNetworkService.swift in Sources */,
+				97924515236C03BC002584F2 /* KCSBaseViewModel.swift in Sources */,
 				97A950412360273D00135556 /* Demo6.swift in Sources */,
 				BCFC8B8C235C0C260029DEEC /* Demo2.swift in Sources */,
 				BCD387D8235B402A00262600 /* ViewController.swift in Sources */,
 				BCD387D4235B402A00262600 /* AppDelegate.swift in Sources */,
 				BCFC8B8E235C0D480029DEEC /* Demo3.swift in Sources */,
+				97924520236C0744002584F2 /* KCSExtension.swift in Sources */,
 				BCD387E8235B40B200262600 /* Demo1VC.swift in Sources */,
+				97924513236C03BC002584F2 /* KCSRegisterViewModel.swift in Sources */,
+				97924514236C03BC002584F2 /* KCSLoginViewModel.swift in Sources */,
+				9792450D236C03B2002584F2 /* GitHubSignupService.swift in Sources */,
 				97A95045236072E700135556 /* Demo8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +500,7 @@
 			baseConfigurationReference = AB8AEC69FF557E0C7FC358B0 /* Pods-RXSwiftText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48RGH5TRF;
 				INFOPLIST_FILE = RXSwiftText/Info.plist;
@@ -419,6 +511,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yyk.knowchatDis.RXSwiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXSwiftText/RXSwiftText-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,6 +523,7 @@
 			baseConfigurationReference = 2749E3B8B1EFF0AE906AA8DB /* Pods-RXSwiftText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M48RGH5TRF;
 				INFOPLIST_FILE = RXSwiftText/Info.plist;
@@ -439,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yyk.knowchatDis.RXSwiftText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXSwiftText/RXSwiftText-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

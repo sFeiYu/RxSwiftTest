@@ -5,4 +5,5 @@ use_frameworks!
 target 'RXSwiftText' do
   pod 'RxSwift', '~> 5.0.0'
   pod 'RxCocoa', '~> 5.0.0'
+  pod 'SnapKit', '~> 4.2.0'
 end
