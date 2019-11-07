@@ -9,6 +9,10 @@
 import UIKit
 import SnapKit
 
+enum LoginType {
+    case login
+}
+
 class KCSLoginVC: KCSViewController {
 
     @IBOutlet weak var lblTitle: UILabel!    
@@ -37,7 +41,17 @@ class KCSLoginVC: KCSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadUI();
+        let type = LoginType.login
+        switch type {
+        case .login:
+            print("login")
+        default:
+            print("")
+        }
+        
+        
+//        loadUI();
+//        loadRx()
 //        loadData();
 //        autoLogin()
         /*
@@ -155,6 +169,41 @@ class KCSLoginVC: KCSViewController {
 //        if (UMSocialManager.default()?.isInstall(.QQ))! {
 //            btnQQ.isHidden = false
 //        }
+        
+    }
+    
+    func loadRx() -> Void {
+        txfPhone.rx.text.asDriver()
+            .map{$0?.count == 11 }
+            .drive(onNext: { [weak self] (isCode) in
+                self?.btnGetCode.isEnabled = isCode
+                self?.btnGetCode.alpha = isCode ? 1 : 0.5
+            })
+        .disposed(by: disposeBag)
+        
+        btnGetCode.rx.tap.subscribe(onNext: { [weak self]() in
+            self?.startTimer()
+            }).disposed(by: disposeBag)
+            
+            
+    }
+    
+    func startTimer() -> Void {
+        let timer = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance).share(replay: 1)
+        timer.map{$0 >= 60 ? "验证码":"\(60-$0)s"}
+            .bind(to: btnGetCode.rx.title(for: .normal))
+            .disposed(by: disposeBag)
+        
+        timer.map{$0 >= 60}
+            .bind(to: btnGetCode.rx.isUserInteractionEnabled)
+            .disposed(by: disposeBag)
+        
+        timer.map{$0 >= 60}.subscribe(onNext: { [weak self](isOver) in
+            if isOver {
+                //通过重新创建，释放前面的包裹
+                self?.disposeBag = DisposeBag()
+            }
+        }).disposed(by: disposeBag)
         
     }
 

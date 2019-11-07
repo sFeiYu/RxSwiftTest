@@ -62,11 +62,6 @@ extension ValidationResult {
 
 class KCSRegisterViewModel: KCSBaseViewModel {
     
-    let validatedPhoneNumber:Driver<ValidationResult>
-    
-//    override init() {
-//        super.init()
-//    }
     
     
 }
