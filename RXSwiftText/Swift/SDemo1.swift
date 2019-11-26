@@ -439,7 +439,9 @@ struct 初始化 {
 
 
 struct 协议 {
-
+    enum aError: Error {
+        case <#case#>
+    }
     
 }
 
